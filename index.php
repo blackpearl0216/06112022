@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <script src="https://kit.fontawesome.com/11acc5a5c1.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-	<title>Wedding website</title>
+	<title>Getting Engagged</title>
   <style>
     /*Subscribe to my youtube Channel U CAN CODE for more Awesome codes*/
 *{
@@ -222,7 +222,7 @@ footer i{
 	<div class="container">
 		<div class="banner">
 			<div class="nav">
-				<b>Jake and Sasha</b>
+				<b>Kundan and Manisha</b>
 				<div class="menu">
 					<a href="#">Home</a>
 					<a href="#us">Us</a>
@@ -231,8 +231,8 @@ footer i{
 				</div>
 			</div>
 			<div class="text">
-				<h1>Jake & Sasha</h1>
-				<span class="date">On 7th November, 2019</span>
+				<h1>Kundan & Manisha</h1>
+				<span class="date">On 6th November, 2022</span>
 			</div>
 		</div>
 		<div class="section">
@@ -240,11 +240,11 @@ footer i{
 				<h2><a name="us">Us</a></h2>
 				<div class="us1">
 					<img src="https://i.ibb.co/FWR7gw6/wed-man.jpg">
-					<span>Sasha is mine!</span>
+					<span>Manisha is mine!</span>
 				</div>
 				<div class="us1">
 					<img src="https://i.ibb.co/WNhDWh0/wed-woman.jpg">
-					<span>Jake is mine!</span>
+					<span>Kundan is mine!</span>
 				</div>
 			</div>
 			<div class="venue">
@@ -263,8 +263,7 @@ footer i{
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.....</p>
 			</div>
-			<footer>&copy; Copyright 2019 U Can Code Follow me @ <i class="fab fa-youtube"></i> <i class="fab fa-twitter"></i> <i class="fab fa-github"></i> <i class="fab fa-codepen"></i></footer>
-		</div>
+        </div>
 	</div>
 </body>
 </html>

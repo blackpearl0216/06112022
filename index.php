@@ -1,64 +1,270 @@
-<!DOCTYPE HTML>
+<!--Subscribe to my youtube Channel U CAN CODE for more Awesome codes-->
+<!DOCTYPE html>
 <html>
 <head>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KlovesIsha</title>
-<style>
-h1 {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <script src="https://kit.fontawesome.com/11acc5a5c1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<title>Wedding website</title>
+  <style>
+    /*Subscribe to my youtube Channel U CAN CODE for more Awesome codes*/
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
 }
-h3,p {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 0px;
-  color: orangered;
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner{
+    width:100%;
+    height: 650px;
+    background-image: url(https://i.ibb.co/kHmMsgR/wed-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width:90%;
+    height: auto;
+    background-color: rgba(255,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width:50%;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#333;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text{
+    width:100%;
+    position: relative;
+    top:40px;
+    left: 20px;
+    font-size: 50px;
+    text-align: left;
+}
+.text h1{
+    color:#f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text .date{
+    color:#fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text .date:hover{
+    background-color: #fff;
+    color:#f15;
+}
+.section{
+    width:100%;
+    height: auto;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.us{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.us img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 10px solid #f15;
+    border-bottom: 10px solid #f15;
+    margin-bottom: 20px;
+}
+.section h2{
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 60px;
+}
+.us1 {
+    display: flex;
+    flex-direction: column;
+}
+.us1 span{
+    color:#fff;
+    font-size: 40px;
+    padding: 8px;
+    background-color: #f15;
+    border-radius: 8px;
+}
+.venue{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.venue img{
+    width:50%;
+    height: 300px;
+    display: inline;
+    border:2px solid #f15;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.venue p{
+    font-size: 35px;
+    line-height: 30px;
+    color:#333;
 }
 
-</style>
-</head>
+.party{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.party img{
+    width:50%;
+    height: 300px;
+    display: inline;
+    border:2px solid #f15;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.party p{
+    font-size: 35px;
+    line-height: 30px;
+    color:#333;
+}
+footer{
+    width:100%;
+    height: auto;
+    color:#ddd;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: #555;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer i{
+    color:skyblue;
+    font-size: 30px;
+    margin-left: 20px;
+}
+  </style>
+	</head>
 <body>
-
-<h1 style="color: #003399;">#K<span>&#128158</span>Isha<h1>
-<h3 style="color:darkred;">We have decided to step in to a world of <br>commitments, care and eternal love.</h3>
-
-<h3 style="color:darkviolet;">Ketchup, be ready <span>&#128521</span><br> We are getting engaged in ...</h3>
-<p id="demo"></p>
-<h1>&#128141</h1>
-
-<h1>&#127880;&#127880;&#127880;&#127880;&#127880;&#127880;&#127880;</h1>
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Nov 6, 2022 10:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "days " + hours + "hrs "
-  + minutes + "min " + seconds + "sec ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-
+	<div class="container">
+		<div class="banner">
+			<div class="nav">
+				<b>Jake and Sasha</b>
+				<div class="menu">
+					<a href="#">Home</a>
+					<a href="#us">Us</a>
+					<a href="#venue">Venue</a>
+					<a href="#party">Party</a>
+				</div>
+			</div>
+			<div class="text">
+				<h1>Jake & Sasha</h1>
+				<span class="date">On 7th November, 2019</span>
+			</div>
+		</div>
+		<div class="section">
+			<div class="us">
+				<h2><a name="us">Us</a></h2>
+				<div class="us1">
+					<img src="https://i.ibb.co/FWR7gw6/wed-man.jpg">
+					<span>Sasha is mine!</span>
+				</div>
+				<div class="us1">
+					<img src="https://i.ibb.co/WNhDWh0/wed-woman.jpg">
+					<span>Jake is mine!</span>
+				</div>
+			</div>
+			<div class="venue">
+				<h2><a name="venue">Venue</a></h2>
+				<img src="https://i.ibb.co/wZk2sTj/wed-venue.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.....</p>
+			</div>
+			<div class="party">
+				<h2><a name="party">Party</a></h2>
+				<img src="https://i.ibb.co/dMb2T7P/wed-party.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.....</p>
+			</div>
+			<footer>&copy; Copyright 2019 U Can Code Follow me @ <i class="fab fa-youtube"></i> <i class="fab fa-twitter"></i> <i class="fab fa-github"></i> <i class="fab fa-codepen"></i></footer>
+		</div>
+	</div>
 </body>
 </html>
